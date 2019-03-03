@@ -3,16 +3,12 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	    Circle circle1 = new Circle();
+	    Circle circle = new Circle();
 
+	    circle.radius = 20;
 
-
-	    circle1.getArea();
-	    circle1.getCircumference();
-
-	    System.out.println(circle1.getArea());
-	    System.out.println(circle1.getCircumference());
-
+	    System.out.println(circle.getArea());
+	    System.out.println(circle.getCircumference());
 
 
 
